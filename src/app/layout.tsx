@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-sans`} suppressHydrationWarning={true}>
+      <body className={`${inter.variable} font-sans h-96`} suppressHydrationWarning={true}>
         <header><Navabar /></header>
         <main>
           {children}
